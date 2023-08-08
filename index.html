@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!--css stylesheet-->
+    <link rel="stylesheet" href="./style.css" />
+    <!--icon-->
+    <link rel="icon" href="./img/laptop.png" />
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Preahvihear&family=REM:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar-->
+    <div id="nav">
+      <header class="p-0 mb-0 border-bottom">
+        <div class="container">
+          <div
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start navb"
+          >
+           
+
+            <ul
+              class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+            >
+              <li>
+                <a href="#" class="nav-link px-2 link-secondary"
+                  ><img
+                    src="./img/laptop.png"
+                    height="50px"
+                    width="50px"
+                    alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-2 link-body-emphasis">Home</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-2 link-body-emphasis">
+                  Courses</a
+                >
+              </li>
+
+              <li>
+                <a href="#" class="nav-link px-2 link-body-emphasis"
+                  >My courses</a
+                >
+              </li>
+            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Search..."
+                aria-label="Search"
+              />
+            </form>
+
+            <div class="dropdown text-end">
+              <a
+                href="#"
+                class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  src="./img/user.png"
+                  alt="mdo"
+                  width="32"
+                  height="32"
+                  class="rounded-circle"
+                />
+              </a>
+              <ul class="dropdown-menu text-small">
+                <li><a class="dropdown-item" href="#">My learning</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <!--first bage -->
+
+    <section class="#first-page gradient-background">
+      <div class="fp-container">
+        <div class="fp-text">
+          <h1>
+            Learn programming with procode and get certificates for the courses
+            you will learn
+          </h1>
+        </div>
+        <div class="fp-text2">
+          <p>
+            At Procode, we help you start your journey in the world of
+            programming and pave the way for you with the best means to be a
+            high-end programmer.
+          </p>
+        </div>
+
+        <div class="fp-pic"><img src="./img/giphy.gif" alt="" /></div>
+      </div>
+    </section>
+<!--second page-->
+    <section class="sc-page">
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+          >
+            <img
+              src="./icons/filetype-html.svg"
+              height="20px"
+              width="20px"
+              alt=""
+            />
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">
+              Various programming languages
+            </h3>
+            <p>
+              A wide range of courses for the different programming languages
+              that are most in demand and keep pace with the requirements of the
+              labor market
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+          >
+            <img
+              src="./icons/camera-reels-fill.svg"
+              height="20px"
+              width="20px"
+              alt=""
+            />
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">In person and online</h3>
+            <p>
+              Procode provides courses, whether in person or online, to suit
+              everyone's needs.
+            </p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+          >
+            <img src="./icons/person.svg" height="25px" width="25px" alt="" />
+          </div>
+          <div>
+            <h3 class="fs-2 text-body-emphasis">
+              Highly experienced trainerse
+            </h3>
+            <p>
+              In Procode, the trainers are distinguished by their experience and
+              knowledge in the field of programming to ensure the quality of the
+              outputs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--comment section-->
+    <section class="comment-sc">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/17241-200.png" class="d-block cimg" alt="..." />
+            <h2 class="ctext">
+              It's one of the best courses I've attended. I don't regret
+              joining. <br />I'm very satisfied!
+            </h2>
+            <p class="ctext">Pebbles, New York</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/c2.png" class="d-block cimg" alt="..." />
+            <h2 class="ctext">
+              I strongly advise all beginners who want to learn programming to
+              <br />
+              join one of the Procode courses, as it is really great and <br />
+              easy to understand
+            </h2>
+            <p class="ctext">Sera, Alabama</p>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/17241-200.png" class="d-block cimg" alt="..." />
+            <h2 class="ctext">
+              I didn't know anything about programming, <br />but after
+              registering with Procode, I became proficient in <br />
+              three programming languages. I am impressed!!!
+            </h2>
+            <p class="ctext">Tom, Illinois</p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!--pricing section-->
+    <section class="pricing">
+    <div class="container py-3">
+      <header>
+    
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal text-body-emphasis">A Plan for Every programmer's Needs</h1>
+          <p class="fs-5 text-body-secondary">Simple and affordable price plans for everyone.</p>
+        </div>
+      </header>
+    
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">First plan</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>online courses</li>
+                  <li>one programming language<i class="fa fa-language" aria-hidden="true"></i></li>
+                  <li>Certificate of attendance</li>
+                  
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Second plan</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$30<small class="text-body-secondary fw-light">/3mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>In person and online courses</li>
+                  <li>3 programming languages</li>
+                  <li>Certificate of attendance</li>
+                  
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Sign up</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-dark">
+              <div class="card-header py-3 text-bg-dark border-dark">
+                <h4 class="my-0 fw-normal">Third plan</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$50<small class="text-body-dark fw-light">/6mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>In person and online courses</li>
+                  <li>3 programming languages</li>
+                  <li>Certificate of attendance</li>
+                  
+                
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-dark">Sign up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </section>
+<!--footer-->
+<footer class="gradient-background">
+<p>©Procode</p>
+<div class="fdiv"> 
+ <a href="https://www.facebook.com/hananbiazid"> <img src="./icons/facebook.svg" alt="" class="sm"></a>
+ <a href="https://www.instagram.com/iihanan_x/"><img src="./icons/instagram.svg" alt="" class="sm" ></a>
+ <a href="https://twitter.com/HananBayazeed"><img src="./icons/twitter.svg" alt="" class="sm"></a>
+</div>
+
+
+
+
+</footer>
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+
